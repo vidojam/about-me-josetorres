@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  background-color:coral;
+  border: 25px solid brown;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 75px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
+  
+  font-family: sans-serif;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center; 
+  height: 100vh;
+  flex-direction: column;
+  gap: 20px;
+}
+.sign {
+  font-size: 30px;
+ 
+}
+.accordian {
+  font-weight: 800;
+  font-size: 25px;
+  width: 300px;
+  border: 1px solid rgb(133, 133, 133);
+}
+.accordian-header {
+  font-weight: 600;
+  font-size: 25px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 15px;
+  border: 2px solid rgb(133, 133, 133);
+  background-color: rgb(135, 135, 77);
+}
+.accordian-body {
+  padding: 25px 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  padding: 8px; 
+  width: 260px;
+  height: 320px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: url(../public/images/jt.jpg)
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
