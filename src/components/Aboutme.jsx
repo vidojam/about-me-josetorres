@@ -31,13 +31,16 @@ export default function Aboutme() {
       </div>
       <>
       <h2>Who am I?</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere minima quasi hic blanditiis, dolor unde, ducimus soluta in vero cupiditate sed error rerum non vel velit quos? Eligendi, sequi perferendis?</p>
+      <p>I'm just a regular joe shomoe. Always looking to learn something-anything. My hobbies include,bowling, dancing, Toastmasters and programming. 
+         </p>
       <h2>Why Boca Code?</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere minima quasi hic blanditiis, dolor unde, ducimus soluta in vero cupiditate sed error rerum non vel velit quos? Eligendi, sequi perferendis?</p>
+      <p>Having recently decided to return to coding, I found Boca Code, during an internet search. I then decided to attended some sessions before the next corhort start date. I found the classes well structured, with lots of information and passionate teachers. </p>
+
       <h2>Future project ideas?</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere minima quasi hic blanditiis, dolor unde, ducimus soluta in vero cupiditate sed error rerum non vel velit quos? Eligendi, sequi perferendis?</p>
+      <p>The project I made consider for the future will be in the area of education or stocks.</p>
+
       <h2>The Ideal Workplace?</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere minima quasi hic blanditiis, dolor unde, ducimus soluta in vero cupiditate sed error rerum non vel velit quos? Eligendi, sequi perferendis?</p>
+      <p>In my opinion, Bode Code has many of the things that make an ideal workplace. Everyone works to get better at what they do. they also assist students, while achieving business goals. The coffee's not to bad either!!! </p>
       </>  
     </div>
    );
