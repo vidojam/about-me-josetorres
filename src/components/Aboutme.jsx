@@ -5,17 +5,16 @@ import ReactDOM from "react-dom";
 
 
 export default function Aboutme() {
+
   // State to show/hide accordion
   const [show, setShow] = useState();
   const handleOpen = () => {
     setShow(!show); // Toggle accordion
   };
-
+ 
   return (
-  
-  
     <div className="app">
-      <h1 className= "font1" >About Me</h1>
+      {/* <h1 className= "font1" >About Me - Jose Torres</h1> */}
       <div className="container">
        
       </div>
@@ -30,15 +29,23 @@ export default function Aboutme() {
           </div>
         )}
       </div>
+      <>
+      <h2>Who am I?</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere minima quasi hic blanditiis, dolor unde, ducimus soluta in vero cupiditate sed error rerum non vel velit quos? Eligendi, sequi perferendis?</p>
+      <h2>Why Boca Code?</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere minima quasi hic blanditiis, dolor unde, ducimus soluta in vero cupiditate sed error rerum non vel velit quos? Eligendi, sequi perferendis?</p>
+      <h2>Future project ideas?</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere minima quasi hic blanditiis, dolor unde, ducimus soluta in vero cupiditate sed error rerum non vel velit quos? Eligendi, sequi perferendis?</p>
+      <h2>The Ideal Workplace?</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere minima quasi hic blanditiis, dolor unde, ducimus soluta in vero cupiditate sed error rerum non vel velit quos? Eligendi, sequi perferendis?</p>
+      </>  
     </div>
-  );
+   );
 }
 
 
 
-
-
-
+    
 
 // Image- A professional Image of yourself(you will have the opportunity to update the photo once we take head shots)
 // MY PHOTO
